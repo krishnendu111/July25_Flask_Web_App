@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/ping", methods=['GET'])
 def pinger():
-    return {'message': 'Everything is working Fine!'}
+    return {'message': 'Suraaj is the instructor for MLOPS'}
 
 @app.route("/predict", methods=['POST'])
 def prediction():
