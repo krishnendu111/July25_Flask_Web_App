@@ -9,7 +9,7 @@ def client():      #pass this as an input parameter wherever server is req
 def test_pinger(client):
     resp= client.get('/ping')
     assert resp.status_code == 200
-    assert resp.json == {'message': 'Everything is working Fine!'}
+    assert resp.json == {'message': 'Suraaj is the instructor for MLOPS'}
 
 def test_prediction(client):
     test_data = {
